@@ -101,16 +101,36 @@
             <div class="today"></div>
             <div class="row">
                 <div class="col-md-4 col-md-offset-4 col-xs-6 col-xs-offset-3">
+                    <!-- todo form -->
                     <div class="add-control">
                         <div class="form-group has-feedback">
                             <input type="text" class="form-control" placeholder="✍️ Add item..." />
                             <i class="fa fa-plus form-control-feedback add-btn" title="Add item"></i>
                         </div>
                     </div>
-                    <p class="err text-danger text-center hidden"><i class="fa fa-warning"></i> Oops! Please, enter name
-                        item</p>
+
+                    <!-- todo warning -->
+                    <p class="err text-danger text-center hidden">
+                        <i class="fa fa-warning"></i>
+                        Oops! Please, enter name item
+                    </p>
                     <p class="no-items text-muted text-center hidden"><i class="fa fa-ban"></i></p>
+
+                    <!-- todo list -->
                     <ul class="todo-list">
+                        <ul class="todo-list ui-sortable">
+                            <li class="">
+                                <div class="checkbox">
+                                    <span class="close">
+                                        <i class="fa fa-times"></i>
+                                    </span>
+                                    <label>
+                                        <input type="checkbox">
+                                        This site uses 🍪to keep track of your tasks
+                                    </label>
+                                </div>
+                            </li>
+                        </ul>
                     </ul>
                 </div>
             </div>
