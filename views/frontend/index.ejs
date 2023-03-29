@@ -123,17 +123,19 @@
                     <!-- todo list -->
                     <ul class="todo-list">
                         <ul class="todo-list ui-sortable">
-                            <li class="">
-                                <div class="checkbox">
-                                    <span class="close">
-                                        <i class="fa fa-times"></i>
-                                    </span>
-                                    <label>
-                                        <input type="checkbox">
-                                        This site uses 🍪to keep track of your tasks
-                                    </label>
-                                </div>
-                            </li>
+                            <% todo_list.forEach(element => { %>
+                                <li class="">
+                                    <div class="checkbox">
+                                        <span class="close">
+                                            <i class="fa fa-times"></i>
+                                        </span>
+                                        <label>
+                                            <input type="checkbox">
+                                            <%= element.title %>
+                                        </label>
+                                    </div>
+                                </li>
+                            <% }) %>
                         </ul>
                     </ul>
                 </div>
