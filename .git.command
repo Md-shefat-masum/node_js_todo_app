@@ -1,3 +1,3 @@
 git add .
-git commit -m "frontend updated for user"
+git commit -m "body parser setup"
 git push
