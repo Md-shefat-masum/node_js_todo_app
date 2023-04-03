@@ -74,6 +74,9 @@
   right: 10px;
   font-size: 16px;
 }
+.todo-list li .close.edit {
+  right: 25px;
+}
 .todo-list li .close .fa {
   line-height: 16px;
 }

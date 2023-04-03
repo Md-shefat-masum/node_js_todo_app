@@ -1,11 +1,12 @@
 [
-	{ "title": "planning", "is_complete": 0 },
+	{ "title": "planning", "is_complete": 1 },
 	{ "title": "wire framming", "is_complete": 0 },
 	{ "title": "db design", "is_complete": 0 },
 	{ "title": "frontend design", "is_complete": 0 },
 	{ "title": "css codding", "is_complete": 0 },
-	{ "title": "js codding", "is_complete": 0 },
-	{ "title": "plugin install", "is_complete": 0 },
+	{ "title": "js codding", "is_complete": 1 },
+	{ "title": "plugin install", "is_complete": 1 },
 	{ "title": "responsive check", "is_complete": 0 },
-	{ "title": "server deploy", "is_complete": 0 }
+	{ "title": "server deploy", "is_complete": 0 },
+	{ "title": "testing", "is_complete": 0 }
 ]
